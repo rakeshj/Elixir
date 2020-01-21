@@ -22,4 +22,6 @@ case System.argv() do
   [arg1, arg2] -> Example.fun(arg1, arg2) |> IO.puts()
 end
 
-
+# to run the script execute the below command
+# elixir example.ex --test
+# elixir example.exs --test //if you created the scripting file. 
